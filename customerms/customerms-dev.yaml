@@ -6,7 +6,7 @@ spring:
     location: classpath:/customerMS/src/main/resources/bannername.txt
   datasource:
     driver-class-name: org.h2.Driver
-    password: 'cipher{f294b1c341020c1b8b72c274ca9fe83ed19e25863f31a5ef8f159061f57929c9}'
+    password: '{cipher}f294b1c341020c1b8b72c274ca9fe83ed19e25863f31a5ef8f159061f57929c9'
     url: jdbc:h2:mem:customerDB
     username: admin
   h2:
